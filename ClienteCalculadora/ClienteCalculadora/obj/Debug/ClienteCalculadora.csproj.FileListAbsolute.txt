@@ -1,0 +1,10 @@
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\bin\Debug\ClienteCalculadora.exe.config
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\bin\Debug\ClienteCalculadora.exe
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\bin\Debug\ClienteCalculadora.pdb
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\obj\Debug\ClienteCalculadora.csprojResolveAssemblyReference.cache
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\obj\Debug\ClienteCalculadora.Form1.resources
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\obj\Debug\ClienteCalculadora.Properties.Resources.resources
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\obj\Debug\ClienteCalculadora.csproj.GenerateResource.Cache
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\obj\Debug\ClienteCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\obj\Debug\ClienteCalculadora.exe
+C:\Users\Guilherme\Documents\Visual Studio 2017\Projects\ClienteCalculadora\ClienteCalculadora\obj\Debug\ClienteCalculadora.pdb

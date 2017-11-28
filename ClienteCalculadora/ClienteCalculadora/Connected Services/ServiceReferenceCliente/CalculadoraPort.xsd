@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://servidorcalculadora/" targetNamespace="http://servidorcalculadora/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="div" type="tns:div" />
+  <xs:element name="divResponse" type="tns:divResponse" />
+  <xs:element name="log" type="tns:log" />
+  <xs:element name="logResponse" type="tns:logResponse" />
+  <xs:element name="mod" type="tns:mod" />
+  <xs:element name="modResponse" type="tns:modResponse" />
+  <xs:element name="mult" type="tns:mult" />
+  <xs:element name="multResponse" type="tns:multResponse" />
+  <xs:element name="pow" type="tns:pow" />
+  <xs:element name="powResponse" type="tns:powResponse" />
+  <xs:element name="sqt" type="tns:sqt" />
+  <xs:element name="sqtResponse" type="tns:sqtResponse" />
+  <xs:element name="sub" type="tns:sub" />
+  <xs:element name="subResponse" type="tns:subResponse" />
+  <xs:element name="sum" type="tns:sum" />
+  <xs:element name="sumResponse" type="tns:sumResponse" />
+  <xs:complexType name="sqt">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sqtResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sum">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+      <xs:element name="arg1" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sumResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="div">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+      <xs:element name="arg1" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="divResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="log">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="logResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pow">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+      <xs:element name="arg1" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="powResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mult">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+      <xs:element name="arg1" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="multResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sub">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+      <xs:element name="arg1" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="subResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mod">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+      <xs:element name="arg1" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

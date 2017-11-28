@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://servidorcalculadora/" name="CalculadoraServiceSW" targetNamespace="http://servidorcalculadora/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:7101/ServidorCalculadora-ServidorCalculadora-context-root/CalculadoraPort?xsd=1" namespace="http://servidorcalculadora/" />
+    </xsd:schema>
+  </types>
+  <message name="log">
+    <part name="parameters" element="tns:log" />
+  </message>
+  <message name="logResponse">
+    <part name="parameters" element="tns:logResponse" />
+  </message>
+  <message name="pow">
+    <part name="parameters" element="tns:pow" />
+  </message>
+  <message name="powResponse">
+    <part name="parameters" element="tns:powResponse" />
+  </message>
+  <message name="mod">
+    <part name="parameters" element="tns:mod" />
+  </message>
+  <message name="modResponse">
+    <part name="parameters" element="tns:modResponse" />
+  </message>
+  <message name="sub">
+    <part name="parameters" element="tns:sub" />
+  </message>
+  <message name="subResponse">
+    <part name="parameters" element="tns:subResponse" />
+  </message>
+  <message name="sum">
+    <part name="parameters" element="tns:sum" />
+  </message>
+  <message name="sumResponse">
+    <part name="parameters" element="tns:sumResponse" />
+  </message>
+  <message name="mult">
+    <part name="parameters" element="tns:mult" />
+  </message>
+  <message name="multResponse">
+    <part name="parameters" element="tns:multResponse" />
+  </message>
+  <message name="div">
+    <part name="parameters" element="tns:div" />
+  </message>
+  <message name="divResponse">
+    <part name="parameters" element="tns:divResponse" />
+  </message>
+  <message name="sqt">
+    <part name="parameters" element="tns:sqt" />
+  </message>
+  <message name="sqtResponse">
+    <part name="parameters" element="tns:sqtResponse" />
+  </message>
+  <portType name="Calculadora">
+    <operation name="log">
+      <input message="tns:log" />
+      <output message="tns:logResponse" />
+    </operation>
+    <operation name="pow">
+      <input message="tns:pow" />
+      <output message="tns:powResponse" />
+    </operation>
+    <operation name="mod">
+      <input message="tns:mod" />
+      <output message="tns:modResponse" />
+    </operation>
+    <operation name="sub">
+      <input message="tns:sub" />
+      <output message="tns:subResponse" />
+    </operation>
+    <operation name="sum">
+      <input message="tns:sum" />
+      <output message="tns:sumResponse" />
+    </operation>
+    <operation name="mult">
+      <input message="tns:mult" />
+      <output message="tns:multResponse" />
+    </operation>
+    <operation name="div">
+      <input message="tns:div" />
+      <output message="tns:divResponse" />
+    </operation>
+    <operation name="sqt">
+      <input message="tns:sqt" />
+      <output message="tns:sqtResponse" />
+    </operation>
+  </portType>
+  <binding name="CalculadoraPortBinding" type="tns:Calculadora">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="log">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="pow">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="mod">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sub">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sum">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="mult">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="div">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sqt">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="CalculadoraServiceSW">
+    <port name="CalculadoraPort" binding="tns:CalculadoraPortBinding">
+      <soap:address location="http://localhost:7101/ServidorCalculadora-ServidorCalculadora-context-root/CalculadoraPort" />
+    </port>
+  </service>
+</definitions>
